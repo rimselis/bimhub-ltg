@@ -12,7 +12,7 @@
             // "Command executed by the user: args.data"
             switch (args.data) {
               case "main_nav_menu_clicked":
-                // window.open("", "_blank");
+                window.open("https://bimhub.lt/", "_blank");
                 break;
             }
             break;
