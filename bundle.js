@@ -12,7 +12,7 @@
             // "Command executed by the user: args.data"
             switch (args.data) {
               case "main_nav_menu_clicked":
-                window.open("https://docs.browser.connect.trimble.com/", "_blank");
+                // window.open("", "_blank");
                 break;
             }
             break;
