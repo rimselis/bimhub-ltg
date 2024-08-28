@@ -6,13 +6,13 @@
     this.API = await WorkspaceAPI.connect(
       window.parent,
       (event, args) => {
-        console.log("Event: ", event);
+        // console.log("Event: ", event);
         switch (event) {
           case "extension.command":
             // "Command executed by the user: args.data"
             switch (args.data) {
               case "main_nav_menu_clicked":
-                window.open("https://bimhub.lt/", "_blank");
+                window.open("https://teams.microsoft.com/l/chat/19%3Aa4f53e951aa44adca6c84db48e6185e1%40thread.v2/conversations", "_blank");
                 break;
             }
             break;
