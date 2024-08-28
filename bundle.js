@@ -16,12 +16,6 @@
                 break;
             }
             break;
-          case "extension.accessToken":
-            //"AccessToken or status: args.data"
-            break;
-          case "extension.userSettingsChanged":
-            //"User settings changed!"
-            break;
           default:
         }
       },
@@ -31,7 +25,7 @@
     if (this.API && this.API.ui) {
       this.API.ui.setMenu({
         title: "LTG team chat",
-        icon: "http://extension.bimhub.lt/wp-content/uploads/2023/10/bimhub-logo.png",
+        icon: "https://raw.githubusercontent.com/rimselis/bimhub-ltg/master/chat.png",
         command: "main_nav_menu_clicked",
       });
     } else {
