@@ -31,7 +31,6 @@
     if (this.API && this.API.ui) {
       this.API.ui.setMenu({
         title: "LTG team chat",
-        icon: "http://extension.bimhub.lt/wp-content/uploads/2023/10/bimhub-logo.png",
         command: "main_nav_menu_clicked",
       });
     } else {
