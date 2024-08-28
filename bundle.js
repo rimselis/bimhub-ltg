@@ -24,7 +24,7 @@
 
     if (this.API && this.API.ui) {
       this.API.ui.setMenu({
-        title: "LTG team chat",
+        title: "Team chat",
         icon: "https://raw.githubusercontent.com/rimselis/bimhub-ltg/master/chat.png",
         command: "main_nav_menu_clicked",
       });
